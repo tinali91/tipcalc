@@ -213,7 +213,7 @@ four=(amount, qLevel)=>{
 
 setTipAmount = (amount, total) =>{
   document.getElementById("tipAmounts").style.display = 'block';
-  document.getElementById('messageText').innerText = `For your bill of $${amount} you should tip $${(total - amount)} for a total of $${total}`
+  document.getElementById('messageText').innerText = `For your bill of $${amount} you should tip $${(total - amount).toFixed(2)} for a total of $${total.toFixed(2)}`
 }
 
 setTipAmountIndividual = (amount, total) =>{
