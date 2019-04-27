@@ -1,3 +1,17 @@
+body{
+  background-image: url("../images/full-bloom.png");
+}
+
+.container{
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 2%;
+}
+
+button{
+  margin: 2%;
+}
+
 #tipAmounts{
   display: none;
 }
