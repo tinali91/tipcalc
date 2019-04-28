@@ -21,11 +21,9 @@ button{
   overflow: hidden;
 }
 
-
 .radioButtons input {
   display: none;
 }
-
 
 .radioButtons label {
     background-color: #e4e4e4;

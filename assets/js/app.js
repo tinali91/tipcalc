@@ -4,6 +4,7 @@ var quality = "";
 var text = "";
 
 getTotals = (event) =>{
+  event.preventDefault();
   const selected = document.getElementById('placeType')
   text = selected.options[selected.selectedIndex].text;
 
